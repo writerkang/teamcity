@@ -7,6 +7,6 @@ public class UserService {
     UserRepository userRepository;
 
     public boolean isExist(UserName userName) {
-        return false;
+        return true;
     }
 }
